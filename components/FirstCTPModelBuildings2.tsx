@@ -10,6 +10,9 @@ type GLTFResult = {
     nodes: {
         [name: string]: THREE.Mesh;
     };
+     materials: {
+          [name: string]: THREE.Material;
+        }
 };
 
 
